@@ -1,0 +1,109 @@
+{
+  "uuid": "115cfb547de94c71b97c7ebc89677499",
+  "historyId": "Obtener Todos las categorias",
+  "fullName": "Obtener Todos las categorias",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ARIELFORCODE"
+    },
+    {
+      "name": "feature",
+      "value": "TestApiRest"
+    }
+  ],
+  "links": [],
+  "name": "Obtener Todos las categorias",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  the Demo Store API is available",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686363488933,
+      "stop": 1686363488934
+    },
+    {
+      "name": "And  I am authenticated as admin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686363488934,
+      "stop": 1686363489256
+    },
+    {
+      "name": "Given  Tengo acceso a la api rest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686363489256,
+      "stop": 1686363489419
+    },
+    {
+      "name": "When  Cuando hago una peticion de tipo get",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686363489420,
+      "stop": 1686363489424
+    },
+    {
+      "name": "Then  Devuelve todas las categorias",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686363489424,
+      "stop": 1686363489460
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686363488933,
+  "stop": 1686363489461
+}
