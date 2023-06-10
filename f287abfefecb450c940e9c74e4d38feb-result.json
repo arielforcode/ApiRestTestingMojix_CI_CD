@@ -1,0 +1,109 @@
+{
+  "uuid": "fb98c1e9570d4335b7f94c61623d6bb1",
+  "historyId": "Agregar una nueva categoria",
+  "fullName": "Agregar una nueva categoria",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az951-595"
+    },
+    {
+      "name": "feature",
+      "value": "TestApiRest"
+    }
+  ],
+  "links": [],
+  "name": "Agregar una nueva categoria",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  the Demo Store API is available",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686369079550,
+      "stop": 1686369079606
+    },
+    {
+      "name": "And  I am authenticated as admin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686369079607,
+      "stop": 1686369080200
+    },
+    {
+      "name": "Given  Tengo el token de autenticacion",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686369080200,
+      "stop": 1686369080275
+    },
+    {
+      "name": "When  Cuando hago una peticion de tipo post",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686369080275,
+      "stop": 1686369080355
+    },
+    {
+      "name": "Then  Se agrega la categoria nueva",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686369080355,
+      "stop": 1686369080357
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686369079541,
+  "stop": 1686369080359
+}

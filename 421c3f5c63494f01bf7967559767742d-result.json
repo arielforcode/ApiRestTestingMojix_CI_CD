@@ -1,0 +1,109 @@
+{
+  "uuid": "6f76cadee22840308f1b5829f9b31577",
+  "historyId": "Obtener una categoria en especifico",
+  "fullName": "Obtener una categoria en especifico",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ARIELFORCODE"
+    },
+    {
+      "name": "feature",
+      "value": "TestApiRest"
+    }
+  ],
+  "links": [],
+  "name": "Obtener una categoria en especifico",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  the Demo Store API is available",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686363489463,
+      "stop": 1686363489464
+    },
+    {
+      "name": "And  I am authenticated as admin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686363489465,
+      "stop": 1686363489822
+    },
+    {
+      "name": "Given  Tengo acceso a la api rest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686363489822,
+      "stop": 1686363489980
+    },
+    {
+      "name": "When  Cuando hago una peticion de tipo get con el id",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686363489980,
+      "stop": 1686363490178
+    },
+    {
+      "name": "Then  Obtengo la categoria en especifico",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686363490179,
+      "stop": 1686363490181
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686363489463,
+  "stop": 1686363490181
+}

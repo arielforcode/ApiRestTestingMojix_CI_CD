@@ -1,0 +1,109 @@
+{
+  "uuid": "e7e23cd8182f47e58b26250d0eeb0c0d",
+  "historyId": "Update una categoria",
+  "fullName": "Update una categoria",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az951-595"
+    },
+    {
+      "name": "feature",
+      "value": "TestApiRest"
+    }
+  ],
+  "links": [],
+  "name": "Update una categoria",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  the Demo Store API is available",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686369080925,
+      "stop": 1686369080926
+    },
+    {
+      "name": "And  I am authenticated as admin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686369080926,
+      "stop": 1686369081073
+    },
+    {
+      "name": "Given  Tengo el token de autenticacion",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686369081073,
+      "stop": 1686369081148
+    },
+    {
+      "name": "When  Cuando actulizo el nombre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686369081148,
+      "stop": 1686369081223
+    },
+    {
+      "name": "Then  Se actulzia la lista de categorias",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686369081223,
+      "stop": 1686369081224
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686369080925,
+  "stop": 1686369081224
+}
