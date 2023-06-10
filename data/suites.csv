@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jun 10 03:51:20 GMT 2023","Sat Jun 10 03:51:21 GMT 2023","299","","","","","","Update una categoria",""
+"passed","Sat Jun 10 03:51:20 GMT 2023","Sat Jun 10 03:51:20 GMT 2023","300","","","","","","Obtener una categoria en especifico",""
+"passed","Sat Jun 10 03:51:20 GMT 2023","Sat Jun 10 03:51:20 GMT 2023","229","","","","","","Obtener Todos las categorias",""
+"passed","Sat Jun 10 03:51:19 GMT 2023","Sat Jun 10 03:51:20 GMT 2023","818","","","","","","Agregar una nueva categoria",""
