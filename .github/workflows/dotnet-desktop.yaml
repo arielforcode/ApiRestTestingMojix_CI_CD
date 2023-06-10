@@ -1,49 +1,59 @@
 name: dotnet package
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        dotnet-version: [ '6.0.x' ]
+        dotnet-version: ['6.0.x']
 
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
-        uses: actions/setup-dotnet@v3
+      - name: Checkout código fuente
+        uses: actions/checkout@v2
+
+      - name: Configurar .NET Core SDK ${{ matrix.dotnet-version }}
+        uses: actions/setup-dotnet@v2
         with:
           dotnet-version: ${{ matrix.dotnet-version }}
-      - name: Install dependencies
+
+      - name: Instalar dependencias
         run: dotnet restore
-      - name: Build
+
+      - name: Compilar
         run: dotnet build --configuration Release --no-restore
-      - name: Execute API Test Cases 
+
+      - name: Ejecutar casos de prueba de la API
         run: dotnet test --no-restore --verbosity normal
-      - name: "Publish test results"
+
+      - name: Publicar resultados de pruebas
         uses: peaceiris/actions-gh-pages@v3.7.3
-        if: ${{ always() }}
+        if: always()
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: './APITestingP/bin/Debug/net6.0/allure-results'
+          publish_dir: './ApiRest_CI_CD/bin/Debug/net6.0/allure-results'
           keep_files: true
           user_name: arielforcode
           user_email: angelarielcamargomamani@gmail.com
-          publish_branch: gh_page
-      - name: Test marketplace action
+          publish_branch: gh-pages
+
+      - name: Acción de generación de informe de Allure
         uses: simple-elf/allure-report-action@master
         if: always()
         id: allure-report
         with:
-          allure_results: './APITestingP/bin/Debug/net6.0/allure-results'
+          allure_results: './ApiRest_CI_CD/bin/Debug/net6.0/allure-results'
           gh_pages: gh-pages
           allure_report: allure-report
-      - name: Deploy report to Github Pages
+
+      - name: Desplegar informe en Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v2
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-report    
+          PUBLISH_DIR: allure-report
