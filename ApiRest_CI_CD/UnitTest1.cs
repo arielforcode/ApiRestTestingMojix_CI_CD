@@ -10,7 +10,7 @@ namespace ApiRest_CI_CD
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            //mensaje
         }
     }
 }
